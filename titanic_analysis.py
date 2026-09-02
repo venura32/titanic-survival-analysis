@@ -19,3 +19,5 @@ print(df.groupby("Pclass")["Survived"].mean())
 
 #Average age: survivors vs non-survivers
 print(df.groupby("Survived")["Age"].mean())
+
+
